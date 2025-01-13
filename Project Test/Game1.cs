@@ -24,7 +24,7 @@ namespace Project_Test
             // TODO: Add your initialization logic here
             playerPosition = new Vector2(_graphics.PreferredBackBufferWidth / 2, 
                                          _graphics.PreferredBackBufferHeight / 2);
-            playerSpeed = 100f;
+            playerSpeed = 200f;
 
             base.Initialize();
         }
@@ -72,7 +72,7 @@ namespace Project_Test
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.LightGray);
 
 
 
